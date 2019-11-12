@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Imputs from "./Imputs";
+import Inputs from "./Inputs";
 import Result from "./Result";
 
 export class App extends Component {
@@ -7,7 +7,7 @@ export class App extends Component {
     return (
       <div>
         <h1>TEST</h1>
-        <Imputs />
+        <Inputs />
         <Result />
       </div>
     );

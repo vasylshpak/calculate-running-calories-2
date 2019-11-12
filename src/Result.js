@@ -5,9 +5,7 @@ export class Result extends Component {
     super(props);
     this.state = { counted: "123" };
   }
-  countedCalorier() {
-    this.setState{}
-  }
+  countedCalorier() {}
 
   render() {
     return (
