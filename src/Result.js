@@ -1,16 +1,10 @@
 import React, { Component } from "react";
 
 export class Result extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { counted: "123" };
-  }
-  countedCalorier() {}
-
   render() {
     return (
       <div>
-        <h2>You total burned calories {this.state.counted}</h2>
+        <h2>You total burned {this.props.calories} calories</h2>
       </div>
     );
   }

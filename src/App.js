@@ -8,7 +8,6 @@ export class App extends Component {
       <div>
         <h1>TEST</h1>
         <Inputs />
-        <Result />
       </div>
     );
   }

@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import Result from "./Result";
 
 export class Inputs extends Component {
   constructor(props) {
     super(props);
-    this.state = { weight: "", age: "", distance: "", time: "" };
-
+    this.state = { weight: "", age: "", distance: "", time: "", counted: "0" };
     //BIND OUR OWN THIS TO HANDLE CHANGES
     this.handleFormChanges = this.handleFormChanges.bind(this);
+    this.countCalories = this.countCalories.bind(this);
   }
 
   //CHANGE
@@ -15,12 +16,20 @@ export class Inputs extends Component {
   }
 
   //ON SUBMIT FUNCTION . CALCULATE CALORIES FORMULA AND OUTPUT
-  handleEvent() {}
+  countCalories(e) {
+    e.preventDefault(e);
+    // const weightVal = this.state.weight;
+    // const distanceVal = this.state.distance;
+    // const sum = weightVal * distanceVal;
+    this.setState({ counted: this.state.weight * this.state.distance });
+
+    console.log(this.counted);
+  }
 
   render() {
     return (
       <div>
-        <form onSubmit={this.handleEvent}>
+        <form onSubmit={this.countCalories}>
           <input
             type="text"
             name="weight"
@@ -51,6 +60,7 @@ export class Inputs extends Component {
           />
           <input type="submit" value="count"></input>
         </form>
+        <Result calories={this.state.counted} />
       </div>
     );
   }
