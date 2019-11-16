@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import Inputs from "./Inputs";
-import Result from "./Result";
+import "bootstrap/dist/css/bootstrap.css";
 
 export class App extends Component {
   render() {
     return (
-      <div>
-        <h1>TEST</h1>
+      <div
+        style={{
+          maxWidth: "700px"
+        }}
+      >
         <Inputs />
       </div>
     );
