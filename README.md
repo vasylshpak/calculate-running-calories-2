@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Calculate-Running-calories
 link to check by yourself - https://vasylshpak.github.io/calculate-running-calories-2/
 
