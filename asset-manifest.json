@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/calculate-running-calories-2/static/css/main.34de6062.chunk.css",
+    "main.js": "/calculate-running-calories-2/static/js/main.31d1a8ab.chunk.js",
+    "main.js.map": "/calculate-running-calories-2/static/js/main.31d1a8ab.chunk.js.map",
+    "runtime-main.js": "/calculate-running-calories-2/static/js/runtime-main.b5a81252.js",
+    "runtime-main.js.map": "/calculate-running-calories-2/static/js/runtime-main.b5a81252.js.map",
+    "static/css/2.833dd627.chunk.css": "/calculate-running-calories-2/static/css/2.833dd627.chunk.css",
+    "static/js/2.bc37db9d.chunk.js": "/calculate-running-calories-2/static/js/2.bc37db9d.chunk.js",
+    "static/js/2.bc37db9d.chunk.js.map": "/calculate-running-calories-2/static/js/2.bc37db9d.chunk.js.map",
+    "index.html": "/calculate-running-calories-2/index.html",
+    "precache-manifest.db4454c61ecafbeb3cc90215ab63ae9a.js": "/calculate-running-calories-2/precache-manifest.db4454c61ecafbeb3cc90215ab63ae9a.js",
+    "service-worker.js": "/calculate-running-calories-2/service-worker.js",
+    "static/css/2.833dd627.chunk.css.map": "/calculate-running-calories-2/static/css/2.833dd627.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/calculate-running-calories-2/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5a81252.js",
+    "static/css/2.833dd627.chunk.css",
+    "static/js/2.bc37db9d.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.31d1a8ab.chunk.js"
+  ]
+}
