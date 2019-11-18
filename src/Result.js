@@ -6,7 +6,10 @@ export class Result extends Component {
   render() {
     return (
       <div className="text-center">
-        <h2>You total burned {this.props.calories} calories</h2>
+        <h2>
+          You burned {this.props.calories} calories{" "}
+          <span role="img">🤙 🤙</span>
+        </h2>
       </div>
     );
   }
