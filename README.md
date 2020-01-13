@@ -1,5 +1,5 @@
 ##  Calculate-Running-calories
-link to check by yourself - https://vasylshpak.github.io/calculate-running-calories-2/
+link  - https://vasylshpak.github.io/calculate-running-calories-2/
 
 ### `screenshot`
 
