@@ -31,7 +31,7 @@ export class Inputs extends Component {
         <form onSubmit={this.countCalories}>
           <div className="col-sm-10  ">
             <h1>
-              WHAT YOU SCORE TODAY<span role="img">🖖</span>?
+              WHAT YOU SCORE TODAY<span role="img"></span>?
             </h1>
             <label htmlFor="exampleInputEmail1">
               What is your weight<span role="img">🧁</span> ?
