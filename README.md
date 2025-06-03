@@ -4,7 +4,7 @@ link  - https://vasylshpak.github.io/calculate-running-calories-2/
 ### `screenshot`
 
 <img width="653" alt="Screen Shot 2019-11-18 at 8 43 27 PM" src="https://user-images.githubusercontent.com/31392756/69084461-9c9fe580-0a44-11ea-9ccb-295cda00d7c0.png">
-
+ 
 
 
 In the project directory, you can run:
